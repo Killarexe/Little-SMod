@@ -11,7 +11,7 @@
     "website": "killarexe.github.io",
     "repo": "https://github.com/Killarexe/Little-SMod"
   },
-  "license": "All-Rights-Reserved",
+  "license": "CC-BY-4.0",
   "entrypoints": {
     "main": [
       "github.killarexe.little_smod.LittleSMod"
