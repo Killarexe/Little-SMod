@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "little_smod",
+  "version": "${version}",
+  "name": "Little SMod",
+  "description": "The most EPIC server MOD EVERRRRRRRRRRR!",
+  "authors": [
+    "Killar"
+  ],
+  "contact": {
+    "website": "killarexe.github.io",
+    "repo": "https://github.com/Killarexe/Little-SMod"
+  },
+  "license": "All-Rights-Reserved",
+  "entrypoints": {
+    "main": [
+      "github.killarexe.little_smod.LittleSMod"
+    ]
+  },
+  "mixins": [
+    "little_smod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

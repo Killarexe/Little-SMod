@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "github.killarexe.little_smod.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "AbstractFurnaceBlockEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
