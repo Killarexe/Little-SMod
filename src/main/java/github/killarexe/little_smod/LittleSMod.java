@@ -1,8 +1,7 @@
 package github.killarexe.little_smod;
 
 import eu.pb4.polymer.resourcepack.api.PolymerResourcePackUtils;
-import github.killarexe.little_smod.registry.LittleSModItemGroups;
-import github.killarexe.little_smod.registry.LittleSModItems;
+import github.killarexe.little_smod.registry.*;
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.util.Identifier;
 import org.slf4j.Logger;
@@ -18,6 +17,9 @@ public class LittleSMod implements ModInitializer {
         if (!PolymerResourcePackUtils.addModAssets(LittleSMod.MOD_ID)) {
             LittleSMod.LOGGER.error("Failed to load LittleSMod's assets! Please enable server resource pack!");
         }
+        LittleSModEffects.register();
+        LittleSModPotions.register();
+        LittleSModEntities.register();
         LittleSModItems.register();
         LittleSModItemGroups.register();
     }

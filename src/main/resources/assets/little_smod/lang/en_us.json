@@ -1,0 +1,11 @@
+{
+  "little_smod.item_group.little_smod_group": "Little SMod",
+  "item.little_smod.dust": "Dust",
+  "item.little_smod.throwable_stick": "Throwable Stick",
+  "item.little_smod.explosive_throwable_stick": "Explosive Throwable Stick",
+  "effect.little_smod.remote": "Remote",
+  "item.minecraft.tipped_arrow.effect.remote_potion": "Arrow of Remote",
+  "item.minecraft.potion.effect.remote_potion": "Potion of Remote",
+  "item.minecraft.splash_potion.effect.remote_potion": "Splash Potion of Remote",
+  "item.minecraft.lingering_potion.effect.remote_potion": "Lingering Potion of Remote"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "throwable_stick",
+  "pattern": [
+    "  /",
+    " / ",
+    "/ "
+  ],
+  "key": {
+    "/": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "little_smod:throwable_stick",
+    "count": 3
+  }
+}
